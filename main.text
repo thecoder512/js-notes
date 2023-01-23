@@ -1,0 +1,46 @@
+Q1
+ Create a function called shortcut to remove the lowercase vowels(a, e, i, o, u) in a given string.
+
+///////////////////////////////////////////////////
+------ somthing i learned ---------
+1- replace(/[the value]/gi, '')
+
+    .filter(str => !'aeiou'.includes(str))
+    console.log(p.replace('dog', 'monkey'));
+
+2- filter()
+    const result = words.filter(word => word.length > 6);
+
+3- ways to convert string to charecters
+    - string.split()
+    - [...string]
+    - array.from(string)
+    - object.assign([], string)
+
+
+------------------------------------------------------------------------------------------
+Q2
+
+Collatz Conjecture (3n+1)
+
+///////////////////////////////////////////////////
+------ somthing i learned ---------
+
+1- to check if even or odd but that easy eay n % 2 === 0  it is odd else it is even 
+
+------------------------------------------------------------------------------------------
+Q3
+Replace With Alphabet Position
+
+///////////////////////////////////////////////////
+------ somthing i learned ---------
+
+1- s.charCodeAt(0) - 64     65:91 97:122
+
+2- charAt()
+
+3- String.fromCharCode(97 + n)
+
+4- assert.equal(high()) to get highest length of words
+
+------------------------------------------------------------------------------------------
