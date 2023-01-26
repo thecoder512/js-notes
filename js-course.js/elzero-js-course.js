@@ -46,32 +46,32 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     4- array => object => []
     5- object => {}
     6- undefined
-    7- null
-    
+    7- null => object
+
     *- typeOf()
 */
 // --------------------------------------------------------
 /*
-    leason (5) variables 
+    leason (5) variables
 
     1- var => old => can redeclare it agine => declared globaly
-    2- let => es6 => can redeclare it agine => declared aa blooked scope 
+    2- let => es6 => can redeclare it agine => declared aa blooked scope
     3- const => es6 => can't redeclare it agine =>  declared aa blooked scope
-    
+
     1- var  => Redevlare (Yes)
-            => Access Before Declare(no => Undefined)  
+            => Access Before Declare(no => Undefined)
             => Variavle Scope Drama [Added To Window] (Yes)
-            => Bloch or Function Scope () 
-    
+            => Bloch or Function Scope ()
+
     2- let  => Redevlare (No => Error)
-            => Access Before Declare(No => Error)  
+            => Access Before Declare(No => Error)
             => Variavle Scope Drama  ()
-            => Bloch or Function Scope () 
-            
+            => Bloch or Function Scope ()
+
     3- const => Redevlare (No => Error)
-            => Access Before Declare(No => Error)  
+            => Access Before Declare(No => Error)
             => Variavle Scope Drama ()
-            => Bloch or Function Scope () 
+            => Bloch or Function Scope ()
 */
 /*
 // Examples
@@ -80,24 +80,24 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     const name = 'ahmed'
     let name = 'ahmed'
 
-    let ahmed = 'ahmed', // multi 
+    let ahmed = 'ahmed', // multi
     age = '15';
 
-// notice that id can access directly in js    
+// notice that id can access directly in js
 */
 // --------------------------------------------------------
 /*
     leason (6) idenigiers
 
-    1- name conditional & Rules 
+    1- name conditional & Rules
     2- Reversed words
 
 */
 /*
 // Examples
-        IDENTFIRE
+        IDENTFIREs   ROLES
             =
-    var = userName = 'ahmedayob1';
+    var  userName = 'ahmedayob1';
 
 // --------------------------------------------------------
 /*
@@ -117,7 +117,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 // --------------------------------------------------------
 /*
     leason (8) Cocatenation
-    
+
     => +
 */
 /*
@@ -149,12 +149,12 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 
 // --------------------------------------------------------
 /*
-    leason (10) Unary plus & Unary nogation 
+    leason (10) Unary plus & Unary nogation
 
     => Unary plus => [Return number if its not number]
     => Unary nogation => [return number if its not number + negates it ]
 
-    // tests 
+    // tests
 
     - normal number => console.log(+100) // 100
     - string number => console.log(+'100') // 100
@@ -163,7 +163,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     - float => console.log(+"15.5") // 15.5
     - Hexadecimal => console.log(+""xff) // 255
     - null => console.log(+null) // 0
-    - false => console.log(+false) // 0 
+    - false => console.log(+false) // 0
     - true => console.log(+true) // 1
 
 
@@ -174,7 +174,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     - float => console.log(-"15.5") // -15.5
     - Hexadecimal => console.log(-""xff) // -255
     - null => console.log(-null) // 0
-    - false => console.log(-false) // 0 
+    - false => console.log(-false) // 0
     - true => console.log(-true) // -1
 
 */
@@ -184,7 +184,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     leason (11) Type coercion (type casting)
 
     - +
-    - - 
+    - -
     - "" - 2
     - false - true
 
@@ -199,19 +199,19 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     console.log(+a + b) // 30
     console.log(a - b) // -10
     console.log("" - b) // -20
-    console.log(true - false) // 1 
+    console.log(true - false) // 1
 
 // --------------------------------------------------------
 /*
     leason (12) Assignment Operators
-    
+
     - +=
     - -=
     - *=
     - /=
     - %=
 
-    // examples 
+    // examples
 
     let a = 10;
     let b = "20";
@@ -222,7 +222,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     console.log(++a + -b + +c++ - -a++ + +a);
             //  13 + -21 + (81+1=>) - (-13+1=>) +14\
     console.log(--c + +b + --a * +b++ - +b * a + --a - +true);
-    //          81 + 21 + 13 * (21+1) - 22 * 13 + 12 - 1 
+    //          81 + 21 + 13 * (21+1) - 22 * 13 + 12 - 1
 
 
 
@@ -237,7 +237,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 
 // --------------------------------------------------------
 /*
-    leason (13) 1-  number 
+    leason (13) 1-  number
 
     - double precision
     - syntactic sugar '_' => console.log(1_000_000)
@@ -250,7 +250,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 
 */
 /*
-//  - 
+//  -
 
 // --------------------------------------------------------
 /*
@@ -274,14 +274,14 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
                     => takes the low value > 5 and make it 1
     - Math.ceil() => takes the low value > 5 and make it 1
     - Math.floor() => takes the low value < 5 and make it 0
-    - Math.min() => gets the smallest number 
+    - Math.min() => gets the smallest number
     - Math.max() => gets the biggest nummber
     - Math.pow() => it's like 2 ** 4 but like that (2, 4)
     - Math.random() => get you random number 1 : 0
     - Math.trunc() [ES6] => gets you integer number no decimals
 
     //Emaples
-    
+
         let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
         console.log(Math.round(Math.random() * numbers[8]));
 
@@ -332,7 +332,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 */
 // --------------------------------------------------------
 /*
-    leason (16) 
+    leason (16)
 
 */
 /*
@@ -340,14 +340,16 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 */
 // --------------------------------------------------------
 /*
-    leason (14) 
+    leason (14)
 
 */
 /*
 // Examples
 */
 // --------------------------------------------------------
-let a = "Elzero Web School";
-console.log(
-  a[0].toLowerCase() + a.substr(1, 15).toUpperCase() + a.slice(-1).toLowerCase()
-);
+
+let A = 1
+
+console.log(++A)
+
+console.log(A)
