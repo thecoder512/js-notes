@@ -153,7 +153,7 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 
     => Unary plus => [Return number if its not number]
     => Unary nogation => [return number if its not number + negates it ]
-
+    => you can use Number() to get a number from the rsult
     // tests
 
     - normal number => console.log(+100) // 100
@@ -327,29 +327,176 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     a[0].toLowerCase() + a.substr(1, 15).toUpperCase() + a.slice(-1).toLowerCase()
 );
 
-//
+*/
+// --------------------------------------------------------
+/*
+    leason (16) comparison operators
+
+    - == Equal
+    - != Not elqual
+
+    - === indentical
+    - !== not indentical
+
+    - > greater than
+    - < less than
+
+    - >= greater than or equal
+    - <= less than or equal
+
+*/
+
+// --------------------------------------------------------
+/*
+    leason (17) Logical operators
+
+    - ! Not
+    - && And
+    _ || Or
 
 */
 // --------------------------------------------------------
 /*
-    leason (16)
+    leason (18) Control flow and nested if
 
-*/
-/*
-// Examples
+    - if
+    - else if
+    - else
+
+    // Conditional (Ternary) Operator
+    -- the conditional ? if yes : if no
+
+
+    // Logical Or ||
+    -- Null + Undefined + Any falsey value
+
+    // nullish coalescing operator ??
+    -- Null + Undefiend
+
+    // to show value when the value itself not exist or undefiend
+    console.log(`the price is ${price || 200}`) => 200
+    console.log(`the price is ${price ?? 200}`) => 200
+
+
+    there is method to know the boolean value of any element
+    -- Boolean()
+
+    // Switch statement
+
+    switch(expression){
+        case 1:
+            //code block
+            break;
+        case 2:
+            //code block
+            break;
+        defult:
+            //code block
+    }
+
 */
 // --------------------------------------------------------
 /*
-    leason (14)
+    leason (20) Arrays
+    -- create array [two methods => new Array(), [] ]
+    -- access Arrays ===== Elements arrayName[index]
+    -- Nested Arrays ===== arrayName[index][index]
+    -- change Arrays ===== Elements arrayName[index] = somthing
+    -- Check for Array =>  Array.isArray(arr)
 
-*/
-/*
-// Examples
+    // using length in array ===== arrayName.length
+
+    // Array (adding or removing)
+    -- unshift('', '') => to add an element to the first
+    -- shift() => to remove an element from the end
+    -- push('', '') => to add an element to the end
+    -- pop() => to remove an element from the end
+
+
+    // searching in the array
+    -- idexOf( search element , from index)
+    -- lastIdexOf( search element , from index)
+    -- includes( value to find  , from index)
+
+    // sorting arrays
+    -- sort(Funcrion)
+    -- reverse
+
+    // slicing array
+    -- slice(start , end , not enclode the end )
+    => slice() => all array
+    => if start is undefined => 0
+    => negative count from end
+    => id end is undefined || indexes => slice to the end of the array
+    => return new array
+    --splice(start , delete count[0 no remove ], the items to add)
+    => if negative => start from the end
+
+    // array joining
+    -- concat(array, array) => return new array , can add '' , []
+    -- join(separator)
+
 */
 // --------------------------------------------------------
+/*
+    leason (21) loop for and concept of loop
 
-let A = 1
+    -- for(index = 0; index > array.length; index++){
+        //block of code here
+    }
+*/
+// --------------------------------------------------------
+/*
+    leason ()
 
-console.log(++A)
+*/
+// --------------------------------------------------------
+/*
+    leason ()
 
-console.log(A)
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
+// --------------------------------------------------------
+/*
+    leason ()
+
+*/
