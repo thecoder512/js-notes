@@ -444,6 +444,24 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
     -- for(index = 0; index > array.length; index++){
         //block of code here
     }
+    -- you can make nested for loop 
+    -- you can use 
+      - break ;
+      - continue ;
+      - label : to give your loops name
+   
+    -- there's advanced stuff you an make 
+      let i = 0
+       - for(;;)  {
+         if (i>array.length){
+           break ;
+         }
+         i++
+       }
+       
+    -- while (your condition and declare your start before it){
+      i++
+    }
 */
 // --------------------------------------------------------
 /*
