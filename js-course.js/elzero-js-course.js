@@ -441,16 +441,16 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
 /*
     leason (21) loop for and concept of loop
 
-    -- for(index = 0; index > array.length; index++){
+    // for(index = 0; index > array.length; index++){
         //block of code here
     }
-    -- you can make nested for loop 
-    -- you can use 
+    // you can make nested for loop 
+    // you can use 
       - break ;
       - continue ;
       - label : to give your loops name
    
-    -- there's advanced stuff you an make 
+    // there's advanced stuff you an make 
       let i = 0
        - for(;;)  {
          if (i>array.length){
@@ -459,28 +459,192 @@ console.log('ahmed %cayob abdo', 'color: red; font-size: 1rem;')
          i++
        }
        
-    -- while (your condition and declare your start before it){
+    // while (your condition and declare your start before it){
       i++
     }
+    
+    // there's loop called do while which you can make your code workand check for the condition 
+      do {
+        // block of code
+        - next action like increment
+      } while (your condition)
+      
+      
+    
 */
 // --------------------------------------------------------
 /*
-    leason ()
-
+    leason (22) function
+    
+    //  it's a block of code that give you ability to us it anywhere without repeating yourself.
+    
+    //  function functionName(you can put arguments here){
+      //  your block of code
+    }
+    functionName(and your argument)
+    
+    //  function return
+      - return
+      - interrupting
+      - automatic semicolon insertion 
+    
+    //  as you know function parameters default value is undefined so you can specify custom one =>
+        
+        - if condition
+        - logical or ||
+        - in the parameters pace li age = '?'
+    
+    // there's something called rest parameter which make from your parameters an array => 
+     (...parameter) only one nd mst be ast one.
+     
+    
+    //  anonymous function it's a function without name 
+     function () {
+       
+     }
+      or store it in a variable
+        let arr = function (){
+          
+        }
+        
+        
+        
+    // setTimeOut(() => {
+        block of code
+    }, time)
+        
+    // there is something called arrow function
+        let arr = () => {
+            your code
+          return code you can remove return and brakets and cerly brakets and but _.
+          
+        }
+        
+    // the global scope can be access from any where , local scope limited by the function space, block scope limited by block of code 
+    
+    // lexical scope that means the child can access the parent the opposite isn't right 
+    
+    
+    //  search about => lexical environment, execution context
 */
 // --------------------------------------------------------
 /*
-    leason ()
-
+    leason (23) higher order function
+    
+    // it's a function that accept a function as a parameter or and function .
+    
+    // map ((ele , index , array ) => {})
+      - method creates new array
+      - pupulate with the result of calling a provided function on an element
+      - in the array 
+      - you can make named or anonymous function inside it
+      
+    // filter ((ele , index , array) => {})  
+      - return new array
+      - filtering the array passing the true values that importanted by a function 
+    
+    
+    // reduce((accentuator , current ele , index , array ) => {} you can specify acc here )  
+      - method execute a reducer function on each element in an array 
+      - resulting in a one value
+      - work on the same array 
+    
+    // forEach((ele , index , array) => {})
+      - method executes a provided function for each array element 
+      - doesn't create new array and return undefined 
+      - break will not break the loop
 */
 // --------------------------------------------------------
 /*
-    leason ()
-
+    leason (24) object
+    
+      // it's a body that contains a methods and properties 
+      
+      // object syntax
+        let user = {
+          name: 'ahmed',
+          age: 21,
+          sayHello: () => {
+            block of code
+          }
+          you can make your identifier with ""
+        }
+        
+      // you can access your object by bracket notation [] if your identifier name was like this.   age of so you use brackets notation to acess it 
+      
+      //  dot notation you can't access dynamic property name but with bracket notation you can 
+      
+      // dynamic property name
+        let myVar = 'age'
+        let user = {
+          age : 21
+        }
+        cosole.log (user.myVar) not working
+        cosole.log(user[myvar])
+        
+        
+      
+      //  if you want to access anything inside the object  in the object itself do it like you do out side it 
+      
+      //  you can add new property or method to your object by objectName.theMethod = thevalue
+      
+      // to create onect use    new Object({})
+      
+      
+      
+      // (this) means the thing you are calling or the owner of something if it was object so ths == object if it wa in the floalscope so it's the window.
+      
+      /// search about strict mode
+      
+      
+      /// to create object you can use Object.create(here ask for object to use it as a prototype you can use empty onject {})
+        
+      
+      /// to create an object with 
+        
+        Object.assign(object to copy to,objects to add to this object)
+      
+      //////////////.search more about objects and use them to got all about it to be pro programmer
+      
+      
+      
 */
 // --------------------------------------------------------
 /*
-    leason ()
+    leason (25) Dom 
+    
+    // to get elements 
+      className
+      TagName
+      Id
+      or qeery
+      
+      or use directly
+        body , title, images, lunks , form ...
+        
+        
+    // Get and set elements , attributes
+      innerHTML
+      innerText
+      textContent
+      get or set attributes directly 
+      or with methods 
+        getAttribute
+        setAttribute
+        
+    // check for attributes
+      e.hasAttribute
+      e.hasAttributes
+      e.attribute
+      e.removeAttribute
+    
+    // creating and appending childs
+      createElement
+      createClmment
+      createAttribute
+      setAttributeNode
+      createTextNode
+      appendChild
 
 */
 // --------------------------------------------------------
